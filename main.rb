@@ -16,7 +16,7 @@ Dir.chdir(date.strftime('%Y-%m')) do
   month_days.each do |day|
     Dir.mkdir(day, 0755)
     File.open("./#{day}/README.md", 'w') do |file|
-      file.puts ("# #{date.strftime('%Y-%m-%d')}")
+      file.puts ("# #{date.strftime('%Y-%m-')}#{day}")
     end
   end
 end
