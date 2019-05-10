@@ -1,5 +1,9 @@
 # everyday_of_the_month
 
+## Version
+
+Ruby 2.6.0
+
 ## Usage
 
 ```
